@@ -1,0 +1,125 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+.navbar-brand{
+    font-family: 'Lobster', cursive;
+    color: white;
+}
+
+/*||| I N T R O ||||*/
+
+.card-title{
+    margin-top: 20px;
+    font-size: 3rem;
+    font-family: 'Bebas Neue', cursive;
+    color: #2e58ff;
+}
+
+
+.card-text{
+    font-size: 2rem;
+    font-family: 'Prompt', sans-serif;
+}
+
+/*||| P R O J E C T ||||*/
+
+.card-group{
+    margin-top: 5%;
+}
+
+
+.card-group .card{
+    margin-left: 40px;
+    margin-right: 40px;
+    transition: 1s;
+}
+
+.card-group .card:hover{
+    filter: grayscale(70%);
+    transition-duration: 1s 1s;
+}
+
+
+.container{
+    margin-top: 10vh;
+    align-items: center;
+}
+
+.row{
+    text-align: center;
+}
+
+.card-tit{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2rem;
+    color: #2e58ff;
+}
+
+/*||| PROJET ||||*/
+
+#projet h2{
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Bebas Neue', cursive; 
+    color: #2e58ff;
+    flex-wrap: wrap;
+}   
+
+.col-md img{
+    width: 5rem;
+    margin-bottom: 10%;
+    margin-top: -18vh;
+    margin: 10px;
+    transition-duration: 0.5s;
+}
+
+.col-md img:hover{
+    width: 5.5rem;
+    transition: 0.5s ;
+}
+
+
+/*||| T E C H N O ||||*/
+
+#Technologies h2{
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Bebas Neue', cursive; 
+    color: #2e58ff;
+    flex-wrap: wrap;
+}
+
+
+/*||| F O O T E R ||||*/
+
+footer{
+    background: #2e58ff;
+}
+
+.container-footer .row{
+    margin-top: 20px;
+    width: 100%;
+    color: white;
+    font-size: 1.7rem;
+}
+
+footer {
+    width: 100%;
+}
+
+.btn{
+    margin-bottom: 30px;
+}
+
+.row a{
+
+    text-decoration: none;
+    color: white;
+}
